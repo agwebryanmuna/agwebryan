@@ -4,7 +4,7 @@ const ProjectCard = ({project}:{project:Project}) => {
 
   return (
     <div className=''>
-      <div className='rounded-lg overflow-hidden'><img src={project.thumbnail} alt={project.name} className="w-full object-cover h-[250px]"/></div>
+      <div className='rounded-lg overflow-hidden'><img src={project.thumbnail} alt={project.name} className="w-full object-cover h-[250px]" loading='lazy' /></div>
       <div className='p-4'>
         <h4 className='text-2xl mb-3'>{project.name}</h4>
         <p className='text-muted-foreground mb-3 line-clamp-3'>{project.description}</p>
