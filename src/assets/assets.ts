@@ -43,13 +43,7 @@ export const projectsList = [
     name: "Converso",
     description:
       "A modern full-stack web application built with Next.js, Supabase, and Clerk. That allows you to learn from voice AI tutors.",
-    technologies: [
-      "React",
-      "Tailwind CSS",
-      "JavaScript",
-      "Node.js",
-      "Express.js",
-    ],
+    technologies: ["React", "Tailwind CSS", "Next.js", "TypeScript"],
     github: "https://github.com/agwebryanmuna/Next-Saas-App.git",
     liveDemo: "https://next-saas-app-six.vercel.app/",
     thumbnail:
